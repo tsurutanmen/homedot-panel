@@ -1,0 +1,7 @@
+{
+  "name": "homedot-panel",
+  "version": "0.1.7",
+  "description": "Shows your homedot agents in Claude Code's status line (running, resting, stopped), with the 5-hour limit and minutes until it resets, plus a /dots pane.",
+  "author": { "name": "tsurutanmen" },
+  "types": "./types/index.d.ts"
+}
