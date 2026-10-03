@@ -21,7 +21,14 @@ It reads `http://127.0.0.1:8790/api/state` (personal) and `8792` (group) every 1
 /plugin install homedot-panel@homedot-panel
 ```
 
-Tested with Claude Code 2.1.286. Messages are in Japanese.
+Tested with Claude Code 2.1.286 to 2.1.288. Messages are in Japanese.
+
+## What it does on your PC
+
+- **Runs** `C:\Windows\System32\curl.exe` every 15 seconds against `http://127.0.0.1:8790/api/state` and `http://127.0.0.1:8792/api/state`. Nothing leaves the PC.
+- **Reads** this session's usage figures from Claude Code itself (`$.session.usage()`).
+- **Writes nothing** to disk. It keeps what it shows in the session's own plugin state.
+- **Opens no port** and submits no prompts.
 
 ## Related
 

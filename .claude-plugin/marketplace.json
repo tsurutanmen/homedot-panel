@@ -1,7 +1,16 @@
 {
   "name": "homedot-panel",
-  "owner": { "name": "tsurutanmen" },
+  "owner": {
+    "name": "tsurutanmen"
+  },
   "plugins": [
-    { "name": "homedot-panel", "source": "./", "description": "homedot agents and the 5-hour limit in Claude Code's status line, plus a /dots pane." }
-  ]
+    {
+      "name": "homedot-panel",
+      "source": "./",
+      "description": "homedot agents and the 5-hour limit in Claude Code's status line, plus a /dots pane."
+    }
+  ],
+  "metadata": {
+    "description": "homedot agents and the 5-hour limit in Claude Code's status line."
+  }
 }
